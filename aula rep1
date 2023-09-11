@@ -1,0 +1,19 @@
+#include <stdio.h>
+//relação salario minimo e o salario de tal pessoa
+
+int main(){
+    
+    float salariomin, salariopessoa, qntsalariomin;
+    
+    printf("informe o valor do salario minimo\n");
+    scanf("%f", &salariomin);
+    
+    printf("informe o valor do seu salario\n");
+    scanf("%f", &salariopessoa);
+    
+    qntsalariomin = salariopessoa / salariomin;
+    
+    
+    
+    printf("seu salario de %.2f representa %.1f% salarios minimos\n ", salariopessoa, qntsalariomin);
+   
